@@ -1,7 +1,7 @@
 # casio_astronomy_tools
 astronomy tools for Casio fx-9860 GIII and GII
 
-##Installation
+## Installation
 <br>
 Connect Casio fx-9860 GIII or GII to your Computer with the help of the USB cable.<br>
 Press **[F1]**<br>
@@ -14,7 +14,7 @@ Press [EXE] as shown on the screen.<br>
 Press [EXIT] as shown on the screen.<br>
 Press [MENU] as shown on the screen.<br>
 
-##Use
+## Use
 
 1. Turn on your calculator
 2. open PRGM Menu
