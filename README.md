@@ -21,6 +21,6 @@ Press [MENU] as shown on the screen.<br>
 3. select GRAV or K3rdLaw
 4. Press **[EXE]** to execute
 
-## K3rdLaw (German translation for used phrases)
+### K3rdLaw (German translation for used phrases)
 
 semi-major axis == große Halbachse der Planetenbahn
