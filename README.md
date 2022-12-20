@@ -18,5 +18,9 @@ Press [MENU] as shown on the screen.<br>
 
 1. Turn on your calculator
 2. open PRGM Menu
-3. select the file you copied to the calculator
+3. select GRAV or K3rdLaw
 4. Press **[EXE]** to execute
+
+### K3rdLaw (German translation for used phrases)
+
+semi-major axis == große Halbachse der Planetenbahn
