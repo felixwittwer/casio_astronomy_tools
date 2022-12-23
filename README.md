@@ -21,6 +21,18 @@ Press [MENU] as shown on the screen.<br>
 3. select GRAV or K3rdLaw
 4. Press **[EXE]** to execute
 
+## Information
+
+### DIST
+calculate distance to a object<br>
+<br>
+
+### GRAV
+calculate gravitaional forces from astronomical objects to each other<br>
+<br>
+
 ### K3rdLaw (German translation for used phrases)
 
-semi-major axis == große Halbachse der Planetenbahn
+Kepler's third law<br>
+<br>
+semi-major axis == große Halbachse der Planetenbahn<br>
