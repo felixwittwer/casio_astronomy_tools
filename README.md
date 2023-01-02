@@ -36,3 +36,7 @@ calculate gravitaional forces from astronomical objects to each other<br>
 Kepler's third law<br>
 <br>
 semi-major axis == große Halbachse der Planetenbahn<br>
+
+### KEPLAW
+
+List of Keplers laws in german<br>
