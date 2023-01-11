@@ -16,10 +16,18 @@ Press [MENU] as shown on the screen.<br>
 
 ## Use
 
+### For DIST; GRAV; K3rdLaw
 1. Turn on your calculator
 2. open PRGM Menu
-3. select GRAV or K3rdLaw
+3. select DIST or GRAV or K3rdLaw
 4. Press **[EXE]** to execute
+
+### For KEPLAW
+1. Turn on your calculator
+2. scroll to the bottom
+3. select Add-In and press [EXE]
+
+<br>
 
 ## Information
 
