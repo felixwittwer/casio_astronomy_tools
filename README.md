@@ -2,17 +2,30 @@
 astronomy tools for Casio fx-9860 GIII and GII
 
 ## Installation
-<br>
+
+### For DIST; GRAV; K3rdLaw
 Connect Casio fx-9860 GIII or GII to your Computer with the help of the USB cable.<br>
 Press **[F1]**<br>
-<br>
+
+### For DIST; GRAV; K3rdLaw
+
 Open the file manager of your operating system and insert the .g1m file into **@MainMem/PROGRAM/** of the shown device (usually D:).<br>
 <br>
+
+### For KEPLAW
+
+Open the file manager of your operating system and insert the KEPLAW.G1A file into <br>
+the shown device (usually D:).<br>
+<br>
+
 Eject device (usually D:). More info on calculator display.<br>
 <br>
 Press [EXE] as shown on the screen.<br>
 Press [EXIT] as shown on the screen.<br>
 Press [MENU] as shown on the screen.<br>
+
+
+
 
 ## Use
 
@@ -26,6 +39,9 @@ Press [MENU] as shown on the screen.<br>
 1. Turn on your calculator
 2. scroll to the bottom
 3. select Add-In and press [EXE]
+
+Use keys [UP] and [DOWN] to scroll through the menu.
+You can also use [1] or [2] or [3] to jump to the specific law.
 
 <br>
 
