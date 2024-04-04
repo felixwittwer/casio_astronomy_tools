@@ -1,0 +1,46 @@
+Input M, "1 for paralactic methode , 2 for trigonometric methode, 3 for Versioninfo","Astronomic distance calculator"
+9.4605E12⇒L
+If M = 1: Then : Goto X : ElseIf M = 2: Then : Goto Y : ElseIf M = 3: Then : Goto Z :IfEnd
+Lbl X
+ClrText
+Input A,"distance to sun [km]="
+Input P,"paealactic angle [as]="
+Locate 1,1, "r = a/tan(α)"
+Locate 1,20, "a ="
+Locate 40,20, A
+Locate 1,40, "α ="
+Locate 40,40, P
+Locate 100,40, "arcs"
+Locate 1,70, "r ="
+Locate 40,70, (A*1000)/(tan(P°/3600))
+Locate 250,70, "km"
+Locate 1,90, "r ="
+Locate 40,90, (A*1000)/(tan(P°/3600))/L
+Locate 250,90, "LJ"
+Stop
+Lbl Y
+ClrText
+Locate 1, 1, "r = a×tan(α)+R×sin(α+β)"
+Input C,"a [km]="
+Input R, "Radius [km]="
+Input A, "α="
+Input B, "β="
+Locate 1, 40, "a="
+Locate 40, 40, C
+Locate 1, 60, "R="
+Locate 40, 60, R
+Locate 1, 80, "α="
+Locate 40, 80, A 
+Locate 1, 100, "β="
+Locate 40, 100, B
+Locate 1, 130, "r="
+Locate 40, 130, C*tan(A)+R*sin(A+B)
+Locate 250, 130, "km"
+Stop
+Lbl Z
+ClrText
+Locate 1, 1, ">> Versioninfo <<"
+Locate 1, 20, "V 1.0"
+Locate 1, 40, "Felix Wittwer"
+Locate 1, 60, "(c)2024"
+Stop

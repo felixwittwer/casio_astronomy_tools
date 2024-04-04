@@ -1,0 +1,64 @@
+#Program name: GRAV
+#Password: <no password>
+Menu "Gravitation", "Force", 1, "Mass", 2, "Distance", 3, "Version", 4
+G -> 6.67408 * 10 ^ -11
+Lbl 1
+"G"? -> G
+"mass 1="? -> M
+"mass 2="? -> N
+"distance="? -> D
+ClrText
+Locate 1, 1, "F= G*((M1*M2)r&^2_char;)"
+Locate 1, 2, "G="
+Locate 4, 2, G
+Locate 1, 3, "M1="
+Locate 4, 3, M
+Locate 1, 4, "M2="
+Locate 4, 4, N
+Locate 1, 5, "r="
+Locate 4, 5, D
+Locate 1, 7, "F="
+Locate 4, 7, G * ((M * N) / (D * D))
+Stop
+Lbl 2
+"G"? -> G
+"mass="? -> M
+"distance="? -> D
+"force="? -> F
+ClrText
+Locate 1, 1, "M1=((F/G)*r&^2_char;)/M2"
+Locate 1, 2, "G="
+Locate 4, 2, G
+Locate 1, 3, "M1="
+Locate 4, 3, M
+Locate 1, 4, "r="
+Locate 4, 4, D
+Locate 1, 5, "F="
+Locate 4, 5, F
+Locate 1, 7, "M2="
+Locate 4, 7, ((F / G) * (D * D)) / M
+Stop
+Lbl 3
+"G"? -> G
+"mass 1="? -> M
+"mass 2="? -> N
+"force="? -> F
+ClrText
+Locate 1, 1, "r=√((M1*M2)/(F/G))"
+Locate 1, 2, "G="
+Locate 4, 2, G
+Locate 1, 3, "M1="
+Locate 4, 3, M
+Locate 1, 4, "M2="
+Locate 4, 4, N
+Locate 1, 5, "F="
+Locate 4, 5, F
+Locate 1, 7, "r="
+Locate 4, 7, √((M * N) / (F / G))
+Stop
+Lbl 4
+Locate 3, 1, ">> Versioninfo <<"
+Locate 8, 3, "V 1.1"
+Locate 5, 5, "Felix Wittwer"
+Locate 7, 6, "(c) 2023"
+Stop
