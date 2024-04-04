@@ -1,5 +1,5 @@
 # casio_astronomy_tools
-astronomy tools for Casio fx-9860 GIII and GII
+astronomy tools for Casio fx-9860 GIII and GII and partly for ClassPad 400
 
 ## Installation
 
